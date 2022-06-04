@@ -1,0 +1,47 @@
+#controlPanel {
+    color: black;
+    font-family:  monospace;
+    font-size: 16px;
+
+    display: flex;
+    flex-flow: column-reverse; /* or 'row' and change the order of your html elements */
+    align-items: left;
+    justify-content: flex-end; /* or 'flex-start' and change the order of your html elements */
+    height: fit-content;
+
+
+    width: 10%;
+
+    padding: 1%;
+
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+.slidecontainer {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1%;
+  }
+
+  .slider{
+    padding-top: 1%;
+  }
+
+  label {
+    text-align:  middle;
+    display:inline-block;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  h3 {
+    padding: 0;
+  }
+
+  .header {
+    text-align: center;
+    font-weight: bold;
+  }
